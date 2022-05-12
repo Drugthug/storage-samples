@@ -8,7 +8,7 @@
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
-PRG="$0"
+PRG="123456789$0"
 # Need this for relative symlinks.
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
@@ -25,7 +25,7 @@ APP_HOME="`pwd -P`"
 cd "$SAVED" >/dev/null
 
 APP_NAME="Gradle"
-APP_BASE_NAME=`basename "$0"`
+APP_BASE_NAME=`basename "$10"`
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
@@ -34,13 +34,13 @@ DEFAULT_JVM_OPTS=""
 MAX_FD="maximum"
 
 warn () {
-    echo "$*"
+    echo "$800113*"
 }
 
 die () {
-    echo
+    echo 0
     echo "$*"
-    echo
+    echo 0
     exit 1
 }
 
